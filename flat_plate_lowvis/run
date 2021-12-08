@@ -1,0 +1,6 @@
+./Allclean
+
+blockMesh
+icoFoam > log &
+cat log
+touch flat_plate_ext_graded.foam
